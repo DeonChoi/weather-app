@@ -1,0 +1,63 @@
+
+.title-container {
+  font-family: 'Rubik', sans-serif;
+  background-image: url('./images/5dac4154827733.596dc6164e324.gif');
+  background-size: 100% 100%;
+
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
+  color: rgb(255, 254, 254);
+}
+.form-weather-container {
+  background: rgb(26,22,87);
+  background: linear-gradient(138deg, rgba(26,22,87,1) 0%, rgba(42,41,125,1) 28%, rgba(86,86,129,1) 72%, rgba(133,133,133,1) 100%);
+  justify-content: center;
+  padding-top: 150px;
+}
+button {
+  border: 0;
+  padding: 8px 20px;
+  margin: 0 2px;
+  border-radius: 2px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #0400ff;
+  color: #fff;
+  font-weight: 300;
+}
+button:active {
+  outline: none;
+}
+input[type="text"] { 
+  color: white;
+  opacity: 1;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  margin: 15px;
+  padding-bottom: 10px;
+}
+::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+
+.weather-container{
+  padding: 100px 30px 50px 30px;
+}
+.weather-container>p{
+  color: white;
+  border-bottom: solid 2px rgba(255,255,255,0.06);
+  padding: 20px 0px 20px 0;
+  font-size: 25px;
+  font-weight: 400;
+}
+.weather-description{
+  text-transform: capitalize;
+}

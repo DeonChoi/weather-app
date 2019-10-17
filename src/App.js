@@ -39,11 +39,11 @@ class App extends React.Component {
         country: response.sys.country,
         humidity: response.main.humidity,
         description: response.weather[0].description,
-        error: ""
+        error: ''
       });
     }else{
       this.setState({
-        error: "Please enter the values..."
+        error: 'Please enter the values...'
       });
     };
   }
